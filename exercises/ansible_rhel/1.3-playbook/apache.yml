@@ -7,7 +7,7 @@
   - name: Latest Apache version installed
     ansible.builtin.yum:
       name: httpd
-      state: absent
+      state: latest
 
   - name: Apache enabled and running
     ansible.builtin.service:

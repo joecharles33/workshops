@@ -1,6 +1,6 @@
 ---
 - name: Apache server installed
-  hosts: neo
+  hosts: tank
   become: true
   tasks:
 
